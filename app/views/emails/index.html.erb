@@ -1,0 +1,16 @@
+<h1 id="main1">AJAX EMAIL VIEWER </h1>
+<section class="content">
+  <div class="container">
+        <div class="list-group">
+          <h3 id="headings">Object</h3>
+        <%= render 'emails/liste' %>
+      <h3 id="headings">Body</h3>
+      <div class="col-9 ">
+        <% email = [] %>
+        <% if !email[0].nil? %>
+        <%= render 'emails/contenu' %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</section>

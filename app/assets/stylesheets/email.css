@@ -1,0 +1,51 @@
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://preview.ibb.co/cntrDK/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.content {
+  margin-top: 100px;
+  height: 100vh; }
+
+.viewer {
+  margin-top: 20px; }
+
+.contenu {
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 10px;
+  background-color: #e67e22;
+  color: black; }
+
+.liste {
+  align-items: left;
+  overflow: scroll;
+  height: 430px; }
+
+.list-group-item {
+  background-color: rgba(232, 232, 232, 0.2) !important;
+  color: white !important;
+  border: none !important; }
+
+.list-group-item:hover {
+  background-color: rgba(232, 232, 232, 0.4) !important; }
+
+.list-group-item:active {
+  background-color: #e4eaff !important; }
+
+.bouton {
+  float: right;
+  display: inline-block; }
+
+.ur {
+  font-weight: bold; }
+
+#headings{
+  color:white;
+}
+#main1{
+  
+ text-align: center;
+ color: white;
+}
